@@ -45,7 +45,7 @@ Fill in:
 ## 4. Parse the HTML export
 
 ```bash
-python parse_export.py "xanman - Text Channels - general.html" messages.jsonl
+python parse_export.py "{html file name}" messages.jsonl
 ```
 
 This produces `messages.jsonl`, one JSON object per line, in chronological order.
